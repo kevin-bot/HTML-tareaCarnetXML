@@ -1,0 +1,39 @@
+/* Cascade style sheet based on tareaCarnetXMl.dtd DTD */
+
+carnet { display: block;         
+         margin: 20px 20px 20px 400px;
+         border: red 5px solid;
+         border-radius: 10px;
+         width: 400px; }
+
+cabecera { display: block;}
+    imagencarnet { display: block;float: left;
+               background-image: url(univalle_1.png) ;
+               background-repeat: no-repeat;
+               width: 40px;height: 40px;
+               margin-left: 15px;
+               margin-top: 10px; }
+    
+    titulo { display: block;float: right;width: 78%;
+             color: red;font-family: arial;
+             font-size: 30px; 
+             border-bottom: red 3px solid; 
+             padding-top:15px; margin-right: 6px;
+             font-weight: bold; }
+
+cuerpo { display: block ;clear: both; }
+    foto { display: block;  width: 30%;float: right; padding-top: 10px;}
+        estudiante { display: block; font-family: arial; text-align: center;font-size: 14px; padding-bottom: 10px;  }    
+        fotoestudiante { display: block;  height: 140px;  background-image: url(foto.jpg) ; background-repeat: no-repeat;                 }
+
+datosestudiante { display: block; width: 63%;float: left;  padding-top: 10px; margin-left: 12px; }
+
+    cede { display: block; font-family: arial; font-size: 14px;}
+    codigo { display: block; padding-top: 20px; border-bottom: red 3px solid; font-size: 13px; font-family: arial;
+         font-weight: bold}
+    nombre { display: block; font-family: arial; padding-top: 5px; font-size: 15px; font-weight: bold}
+    apellido { display: block;font-family: arial; padding-top: 4px; font-size: 15px; font-weight: bold}
+    ti { display: block; border-bottom: red 3px solid;font-family: arial;  font-weight: bold; font-family: arial;
+        font-size:14px; padding-top: 5px; }
+    carrera { display: block ; border-bottom: red 3px solid; margin-bottom: 4px; font-family: arial; 
+          font-weight: bold; font-size: 14px; padding-top: 2px; padding-bottom: 2px;}

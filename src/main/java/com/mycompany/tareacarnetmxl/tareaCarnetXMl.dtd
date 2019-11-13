@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT carnet (cabecera|cuerpo)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cabecera (imagencarnet|titulo)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT imagencarnet EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT titulo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cuerpo (foto|datosestudiante)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT foto (estudiante|fotoestudiante)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT estudiante (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fotoestudiante EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT datosestudiante (cede|codigo|nombre|apellido|ti|carrera)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cede (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT codigo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT apellido (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ti (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT carrera (#PCDATA)>

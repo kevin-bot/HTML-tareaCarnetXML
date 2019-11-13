@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carnet SYSTEM "tareaCarnetXMl.dtd">
+<?xml-stylesheet href="tareaCarnetXMlStylesheet.css" type="text/css"?>
+<carnet>
+    
+        <cabecera>
+            <imagencarnet></imagencarnet>
+            <titulo>Universidad del valle</titulo>
+        </cabecera>
+   
+        <cuerpo>                  
+            
+            <foto>                
+                <estudiante>Estudiante</estudiante>  
+                <fotoestudiante></fotoestudiante>
+            </foto>  
+            
+            <datosestudiante>
+                <cede>Sede Caicedonia</cede>
+                <codigo>201761914</codigo>
+                <nombre>Kevin Santiago</nombre>
+                <apellido>NARVAEZ VERA</apellido>
+                <ti>T.I.  1003818315</ti>
+                <carrera>Tecnologia en sistemas de 
+                informacion</carrera>
+            </datosestudiante>
+        </cuerpo>
+</carnet>
